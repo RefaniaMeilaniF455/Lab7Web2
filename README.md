@@ -28,6 +28,13 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 ```
 3. Menjalankan CLI (Command Line Interface), Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt.  
 ![image](https://github.com/user-attachments/assets/3ff09c24-5f7a-44ff-a2d3-090773999761)
+4. Untuk memudahkan mengetahui jenis errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment variable CI_ENVIRINMENT menjadi development.
+![image](https://github.com/user-attachments/assets/c8553b06-9765-4098-9ccf-ca36883b1dec)
+![image](https://github.com/user-attachments/assets/e9a2e384-7c0e-4b50-adfe-0955fc089131)
+
+5. Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable CI_ENVIRINMENT menjadi development.
+
+6. 
 
 
 
