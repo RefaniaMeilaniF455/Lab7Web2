@@ -17,7 +17,8 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 # Langkah-langkah :
 1. Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server. 
 ![image](https://github.com/user-attachments/assets/e7ab9777-ab80-47e0-b24f-1ca19c081d69)
-![image](https://github.com/user-attachments/assets/5c7821db-2f94-42a1-83d2-4122d7f11008)
+![image](https://github.com/user-attachments/assets/e7feb6db-a300-4d2b-ae75-5243bb0d488e)
+
 2. Instalasi Codeigniter 4, untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan composer. Pada praktikum ini kita menggunakan cara manual.
 ```
 Unduh Codeigniter dari website https://codeigniter.com/download  
@@ -25,6 +26,8 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 • Ubah nama direktory framework-4.x.xx menjadi ci4. 
 • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
 ```
+3. Menjalankan CLI (Command Line Interface), Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt.  
+![image](https://github.com/user-attachments/assets/3ff09c24-5f7a-44ff-a2d3-090773999761)
 
 
 
