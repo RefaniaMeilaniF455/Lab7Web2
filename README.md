@@ -34,10 +34,9 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 ![image](https://github.com/user-attachments/assets/c8553b06-9765-4098-9ccf-ca36883b1dec)
 ![image](https://github.com/user-attachments/assets/e9a2e384-7c0e-4b50-adfe-0955fc089131)
 
-5. Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable CI_ENVIRINMENT menjadi development.
-
+5. app/Controller/Home.php hilangkan titik koma pada akhir kode ubah return view > 'Welcome_messege'
+![image](https://github.com/user-attachments/assets/1e372547-33a5-451b-828d-2253567abee0)
 6. 
-
 
 
 
