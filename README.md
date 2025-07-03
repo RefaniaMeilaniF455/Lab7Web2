@@ -43,6 +43,9 @@ dapat diakses.
 alamat: http://localhost:8080/page/tos
 ![image](https://github.com/user-attachments/assets/64d66bdf-3de8-44b5-9b30-5893e0517cb7)
 menambahkan perintah pada routes.php ```$routes->get('/tos', Page::tos');```
+8. Membuat ViewSelanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php)
+![image](https://github.com/user-attachments/assets/aa4030df-27b1-4d64-8567-6066048abd12)
+
 
 
 
