@@ -26,7 +26,7 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 • Ubah nama direktory framework-4.x.xx menjadi ci4. 
 • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
 ```
-![image](https://github.com/user-attachments/assets/0bd75018-77bd-40e4-8d4d-a6c178318c2e)
+![image](https://github.com/user-attachments/assets/7e9b9960-b6ed-4145-980f-5061a5c9c027)
 
 3. Menjalankan CLI (Command Line Interface), Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt.  
 ![image](https://github.com/user-attachments/assets/3ff09c24-5f7a-44ff-a2d3-090773999761)
