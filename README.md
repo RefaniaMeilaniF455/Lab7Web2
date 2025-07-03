@@ -14,7 +14,7 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 4. php-intl ekstensi untuk membuat aplikasi multibahasa;
 5. libcurl (opsional), jika ingin pakai Curl.
 
-# Langkah-langkah :
+# Langkah-langkah Pratikum 1:
 1. Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server. 
 ![image](https://github.com/user-attachments/assets/e7ab9777-ab80-47e0-b24f-1ca19c081d69)
 ![image](https://github.com/user-attachments/assets/e7feb6db-a300-4d2b-ae75-5243bb0d488e)
@@ -44,7 +44,8 @@ alamat: http://localhost:8080/page/tos
 ![image](https://github.com/user-attachments/assets/64d66bdf-3de8-44b5-9b30-5893e0517cb7)
 menambahkan perintah pada routes.php ```$routes->get('/tos', Page::tos');```
 8. Membuat ViewSelanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php)
-![image](https://github.com/user-attachments/assets/aa4030df-27b1-4d64-8567-6066048abd12)
+![image](https://github.com/user-attachments/assets/6d6b8db5-f734-4888-b8dc-4c67ed9b4f7a)
+9. 
 
 
 
