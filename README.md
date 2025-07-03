@@ -36,7 +36,14 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 
 5. app/Controller/Home.php hilangkan titik koma pada akhir kode ubah return view > 'Welcome_messege'
 ![image](https://github.com/user-attachments/assets/1e372547-33a5-451b-828d-2253567abee0)
-6. 
+6. Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halaman sudah
+dapat diakses.
+![image](https://github.com/user-attachments/assets/2fc078e5-012b-4986-abce-50960b14f38d)
+7. Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan
+alamat: http://localhost:8080/page/tos
+![image](https://github.com/user-attachments/assets/64d66bdf-3de8-44b5-9b30-5893e0517cb7)
+menambahkan perintah pada routes. php "$routes->get('/tos', 'Page::tos');"
+
 
 
 
