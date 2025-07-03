@@ -40,12 +40,14 @@ Unduh Codeigniter dari website https://codeigniter.com/download
 dapat diakses.
 ![image](https://github.com/user-attachments/assets/2fc078e5-012b-4986-abce-50960b14f38d)
 7. Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan
-alamat: http://localhost:8080/page/tos
+alamat: (http://localhost:8080/tos)
 ![image](https://github.com/user-attachments/assets/64d66bdf-3de8-44b5-9b30-5893e0517cb7)
 menambahkan perintah pada routes.php ```$routes->get('/tos', Page::tos');```
 8. Membuat ViewSelanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php)
 ![image](https://github.com/user-attachments/assets/6d6b8db5-f734-4888-b8dc-4c67ed9b4f7a)
-9. 
+9. Tambahkan Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php. Kemudian ubah file app/view/about.php seperti berikut. Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
+![Screenshot 2025-07-03 153840](https://github.com/user-attachments/assets/48f62387-7f39-434c-98bd-7cf22f91d7f1)
+
 
 
 
