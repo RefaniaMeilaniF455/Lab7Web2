@@ -42,7 +42,7 @@ dapat diakses.
 7. Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan
 alamat: http://localhost:8080/page/tos
 ![image](https://github.com/user-attachments/assets/64d66bdf-3de8-44b5-9b30-5893e0517cb7)
-menambahkan perintah pada routes.php '''$routes->get('/tos', Page::tos');'''
+menambahkan perintah pada routes.php ```$routes->get('/tos', Page::tos');```
 
 
 
