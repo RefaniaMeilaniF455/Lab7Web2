@@ -66,8 +66,8 @@ Akses menu admin dengan url ```http://localhost:8080/admin/artikel```
 ![image](https://github.com/user-attachments/assets/42f15d7e-47b5-486d-8665-270852b6c7fd)
 7. Kemudian buat view untuk form tambah dengan nama form_edit.php
 ![image](https://github.com/user-attachments/assets/4b7aeb66-4107-4681-ab84-6b1e908b3be6)
-![Screenshot 2025-07-04 121316](https://github.com/user-attachments/assets/9bdb318a-2ecf-44ca-8827-7d7ad96e39de)
-
-9. Menghapus Data Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+![image](https://github.com/user-attachments/assets/0648f6e6-8676-4027-b21e-c820e1c1c945)
+http://localhost:8080/admin/artikel/edit/1
+8. Menghapus Data Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 
