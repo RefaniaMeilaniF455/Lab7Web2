@@ -48,9 +48,26 @@ menambahkan perintah pada routes.php ```$routes->get('/tos', Page::tos');```
 9. Tambahkan Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php. Kemudian ubah file app/view/about.php seperti berikut. Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 ![Screenshot 2025-07-03 153840](https://github.com/user-attachments/assets/48f62387-7f39-434c-98bd-7cf22f91d7f1)
 
+# Langkah-Langkap Pratikum 2
+1. Membuat Database: Studi Kasus Data Artikel
+![image](https://github.com/user-attachments/assets/463378e3-de76-4ebb-acea-ed105c6bde31)
+2. Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php , Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.
+![image](https://github.com/user-attachments/assets/caaddbd6-9812-450a-af08-640e5d073089)
+Selanjutnya buka browser kembali, dengan mengakses url ```http://localhost:8080/artikel```
+3. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya. Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+![image](https://github.com/user-attachments/assets/07a67a8f-fb48-4736-a767-23d3c3d1ab0b)
+4. Membuat View Detail Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php dan Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail. 
+![image](https://github.com/user-attachments/assets/dc35effe-8578-457a-9305-7dba1fd8c230)
+![image](https://github.com/user-attachments/assets/e7a4ddb9-7b42-4756-b1d5-e3057a935901)
+5. Membuat Menu Admin Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+![image](https://github.com/user-attachments/assets/15e713f1-4d7c-47fe-abe9-ddf5d2b203b2)
+Akses menu admin dengan url ```http://localhost:8080/admin/artikel```
+6. Menambah Data Artikel Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+![image](https://github.com/user-attachments/assets/42f15d7e-47b5-486d-8665-270852b6c7fd)
+7. Kemudian buat view untuk form tambah dengan nama form_edit.php
+![image](https://github.com/user-attachments/assets/4b7aeb66-4107-4681-ab84-6b1e908b3be6)
+![Screenshot 2025-07-04 121316](https://github.com/user-attachments/assets/9bdb318a-2ecf-44ca-8827-7d7ad96e39de)
 
-
-
-
+9. Menghapus Data Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 
