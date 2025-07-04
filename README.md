@@ -69,5 +69,18 @@ Akses menu admin dengan url ```http://localhost:8080/admin/artikel```
 ![image](https://github.com/user-attachments/assets/0648f6e6-8676-4027-b21e-c820e1c1c945)
 http://localhost:8080/admin/artikel/edit/1
 8. Menghapus Data Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+![image](https://github.com/user-attachments/assets/6b807c15-8e43-47ae-9f1a-06d521531a19)
+dan ini hasil dari artikel yang sudah di edit 
+# Langkah-Langkah Pratikum 3
+1.Buat folder layout di dalam app/Views/. Buat file main.php di dalam folder layout
+Pertanyaan dan Tugas
+```
+• Sesuaikan data dengan praktikum sebelumnya, perlu melakukan perubahan field pada database dengan menambahkan tanggal agar dapat mengambil data artikel terbaru.
+• Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+• Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
+Untuk memungkinkan kita kembali elemen-elemen yang sama di berbagai halaman tanpa perlu menyalin kode, sehingga mengurangi duplikasi
+• Jelaskan perbedaan antara View Cell dan View biasa.
+View biasa berguna untuk menampilkan konten statis maupun dinamis pada halaman tertentu sedangkan View cell merupakan komponen yang bisa digunakan untuk berbagai halaman, misalnya elemen yang sering muncul, seperti sidebar maupun widget.
+• Ubah View Cell agar hanya menampilkan post dengan kategori tertentu.
 
-
+```
