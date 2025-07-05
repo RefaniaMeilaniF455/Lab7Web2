@@ -84,3 +84,15 @@ View biasa berguna untuk menampilkan konten statis maupun dinamis pada halaman t
 • Ubah View Cell agar hanya menampilkan post dengan kategori tertentu.
 
 ```
+# Langkah-langkah Pratikum 4
+1. Membuat Tabel User
+![image](https://github.com/user-attachments/assets/4eec7305-5b9c-4977-a85b-2b421abdaf21)
+2. Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori app/Models dengan nama UserModel.php
+3. Membuat Controller User Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login.
+4. Membuat View Login. Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+5. Membuat Database Seeder Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+```php spark make:seeder UserSeeder```
+6. Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori ```/app/Database/Seeds/UserSeeder```. Selanjutnya buka kembali CLI dan ketik perintah berikut:
+```php spark db:seed UserSeeder``` Selanjutnya buka url http://localhost:8080/user/login seperti berikut: ![WhatsApp Image 2025-07-05 at 14 25 12_2da8a9a8](https://github.com/user-attachments/assets/51f3a660-7d94-44e3-aba2-d84b6d9dc286)
+
