@@ -95,4 +95,23 @@ Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada
 ```php spark make:seeder UserSeeder```
 6. Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori ```/app/Database/Seeds/UserSeeder```. Selanjutnya buka kembali CLI dan ketik perintah berikut:
 ```php spark db:seed UserSeeder``` Selanjutnya buka url http://localhost:8080/user/login seperti berikut: ![WhatsApp Image 2025-07-05 at 14 25 12_2da8a9a8](https://github.com/user-attachments/assets/51f3a660-7d94-44e3-aba2-d84b6d9dc286)
+7. Kemudian ini adalah tampilan ketika saya sduah login
+![image](https://github.com/user-attachments/assets/9913e00a-ca8f-41db-b16d-677b3e49db9f)
+status user login 1
+8. Menambahkan Auth Filter Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.Percobaan Akses Menu Admin Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+![image](https://github.com/user-attachments/assets/73fec06d-7833-49c5-8768-f47c8c9a1eb3)
+9. Tambahkan method logout pada Controller User
+
+ # Langkah-Langkah Pratikum 5
+ 1. Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode
+pada method admin_index, Kemudian buka file views/artikel/admin_index.php dan deklarasi tabel data.
+![image](https://github.com/user-attachments/assets/930400c6-4568-4b12-b3c1-84aa64307ff1)
+2. Membuat Pencarian Pencarian data digunakan untuk memfilter data. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index
+![image](https://github.com/user-attachments/assets/075fb201-f0c8-4137-bec1-f663fb6e522d)
+
+# Langkah-Langkah Pratikum 6
+1. Buka kembali Controller Artikel pada project sebelumnya, sesuaikan kode pada method add Kemudian pada file views/artikel/form_add.php tambahkan field input file Dan sesuaikan tag form dengan menambahkan ecrypt type Ujicoba file upload dengan mengakses menu tambah artikel.
+![image](https://github.com/user-attachments/assets/d1ef2a05-6fe1-4fc1-8e91-a036ee87de53)
+
+# Langkah-Langkah Pratikum 7
 
