@@ -121,4 +121,14 @@ pada method admin_index, Kemudian buka file views/artikel/admin_index.php dan de
 4. Modifikasi `ArtikelModel.php` untuk mendefinisikan relasi dengan `KategoriModel`: Menambahkan method `getArtikelDenganKategori()` untuk mengambil data artikel beserta nama kategorinya menggunakan join.
 5. Modifikasi `Artikel.php` untuk menggunakan model baru dan menampilkan data relasi:
 6. Buka folder view/artikel sesuaikan masing-masing view. index.php
-7. 
+7. Hasil dari Output:
+   > Pertama akan diarahkan kehalaman logi user terlebih dahulu http://localhost:8080/index.php/user/login
+![image](https://github.com/user-attachments/assets/5b62cd1f-f6e1-4712-b906-a657efb40b1a)
+   > Setelah login berhasil akan masuk kehalaman http://localhost:8080/admin/artikel
+![image](https://github.com/user-attachments/assets/fe99e9f5-b356-4571-afc0-a1435b544bcb)
+Kemudian lakukan search judul artikel yang sudah ada
+![image](https://github.com/user-attachments/assets/148f1700-c5ed-4c9f-ad8a-78bb62f0dbd0)
+   > Lakukan uji coba menambahkan artikel dan memilih kategori
+![image](https://github.com/user-attachments/assets/f58815d8-993f-4aab-977d-f88629fde1a0)
+
+
