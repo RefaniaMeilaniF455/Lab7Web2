@@ -114,4 +114,11 @@ pada method admin_index, Kemudian buka file views/artikel/admin_index.php dan de
 ![image](https://github.com/user-attachments/assets/d1ef2a05-6fe1-4fc1-8e91-a036ee87de53)
 
 # Langkah-Langkah Pratikum 7
-
+1. Membuat Tabel Kategori Kita akan membuat tabel baru bernama `kategori` untuk mengkategorikan artikel. Struktur Tabel `kategori`
+2. Tambahkan foreign key `id_kategori` pada tabel `artikel` untuk membuat relasi dengan tabel
+`kategori`. Query untuk menambahkan foreign key:
+3. Membuat Model Kategori Buat file model baru di `app/Models` dengan nama `KategoriModel.php`:
+4. Modifikasi `ArtikelModel.php` untuk mendefinisikan relasi dengan `KategoriModel`: Menambahkan method `getArtikelDenganKategori()` untuk mengambil data artikel beserta nama kategorinya menggunakan join.
+5. Modifikasi `Artikel.php` untuk menggunakan model baru dan menampilkan data relasi:
+6. Buka folder view/artikel sesuaikan masing-masing view. index.php
+7. 
