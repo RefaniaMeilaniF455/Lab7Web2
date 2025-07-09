@@ -131,4 +131,14 @@ Kemudian lakukan search judul artikel yang sudah ada
    > Lakukan uji coba menambahkan artikel dan memilih kategori
 ![image](https://github.com/user-attachments/assets/f58815d8-993f-4aab-977d-f88629fde1a0)
 
+# Langkah-Langkah Pratikum 8
+> Buka Kembali project sebelumnya, kemudian kita tambahkan Pustaka yang dibutuhkan pada project tersebut.
+> Menambahkan Pustaka jQuery. Kita akan menggunakan pustaka jQuery untuk mempermudah proses AJAX. Download pustaka jQuery versi terbaru dari https://jquery.com dan ekstrak filenya. Salin file jquery-3.6.0.min.js ke folder public/assets/js.
+> Membuat Model. Menambahkan Pustaka jQuery. Kita akan menggunakan pustaka jQuery untuk mempermudah proses AJAX. Download pustaka jQuery versi terbaru dari https://jquery.com dan ekstrak filenya. Salin file jquery-3.6.0.min.js ke folder public/assets/js.
+> Pada modul sebelumnya sudah dibuat ArtikelModel, pada modul ini kita akan memanfaatkan model tersebut agar dapat diakses melalui AJAX.
+> Selesaikan programnya sesuai Langkah-langkah yang ada. Tambahkan fungsu untuk tambah dan ubah data. Anda boleh melakukan improvisasi.
+![image](https://github.com/user-attachments/assets/6dfa1bf0-f535-4b8e-a1fa-c3b2aad3f7d1)
+> untuk membuka tampilan klik http://localhost:8080/ajax
+
+# Langkah -Langkah Pratikum 9
 
