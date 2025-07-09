@@ -121,5 +121,11 @@ Kemudian lakukan search judul artikel yang sudah ada
 ![image](https://github.com/user-attachments/assets/9d17c47e-669f-43f4-a9fa-89e753df8ab8)
 > untuk membuka tampilan klik http://localhost:8080/ajax
 
-
+38. Testing REST API CodeIgniter Buka aplikasi postman dan pilih create new → HTTP Request Menampilkan Semua Data Pilih method GET dan Lalu, klik Send. Jika hasil test menampilkan semua data artikel dari database, maka pengujian berhasil.
+![image](https://github.com/user-attachments/assets/6a7ff03e-738a-4498-9e50-8fd6f4cf6beb)
+39. Menampilkan Data Spesifik Masih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID
+nomor 2 di database.
+![image](https://github.com/user-attachments/assets/b8e7e4a1-5fc1-4e58-abe6-49ffb3b5ef81)
+39. Mengubah Data Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL
+![image](https://github.com/user-attachments/assets/b993bb5e-d1e8-44ad-8fc8-c0f1dffba8e4)
 
